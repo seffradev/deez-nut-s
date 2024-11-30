@@ -19,4 +19,5 @@ executable(
   dependencies: project_dependencies,
   install: true,
   cpp_args: build_args,
+  include_directories: includes,
 )
